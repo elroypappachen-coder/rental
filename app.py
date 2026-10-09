@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-MODEL_PATH = r"C:\Users\elroy\Downloads\rental\RentalListingModel.joblib"
+MODEL_PATH = "RentalListingModel.joblib"
 model = joblib.load(MODEL_PATH)
 
 st.set_page_config(page_title="RentHop Interest Predictor", page_icon="🏠")
